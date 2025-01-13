@@ -1,0 +1,81 @@
+/* CSS Reset */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Ensures consistent sizing */
+}
+
+.hero {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.8); /* Shadow only at the bottom */
+  border-radius: 5px; /* Optional: rounded corners */
+  margin-bottom: 0px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(19, 129, 192);
+}
+
+.option-box {
+  display: flex;
+}
+
+.option {
+  margin-right: 15px;
+}
+
+.box {
+  width: 100%;
+  height: 90vh;
+  background-color: gray;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.info {
+  display: flex;
+  padding: 30px;
+  border: 5px solid black;
+  border-radius: 10px;
+  font-size: 3rem;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  background-color: black;
+}
+
+span {
+  color: white;
+  font-family: "Roboto";
+}
+
+#color {
+  padding-left: 15px;
+  color: aqua;
+}
+
+#color-changer {
+  border: 5px solid black;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  padding: 20px;
+  font-family: "Roboto";
+  background-color: black;
+  color: bisque;
+  cursor: pointer;
+}
+
+.option {
+  cursor: pointer;
+}
